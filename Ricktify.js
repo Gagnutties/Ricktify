@@ -29,7 +29,7 @@ function RickItUp(){
             Str = Str.replace(Hld, "rick");
             Hld = "";
         }
-        if(Str[char]=="M" || Str[char]=="r"){
+        if(Str[char]=="M" || Str[char]=="m"){
             Hld += Str[char];
             char++;
             while(Str[char]=="a" 
