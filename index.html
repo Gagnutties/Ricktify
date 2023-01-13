@@ -5,6 +5,7 @@
     <meta description="This is where you can auto generate rick and morty titles">
     <title>R&M Ep Title Generator</title>
     <link rel="stylesheet" href="RM.css"></link>
+    <script type="text/javascript" src="Ricktify.js"></script>
 </head>
 <body>
 <header>
@@ -16,9 +17,10 @@
 <div id="InputContainer">
     <h3>Insert your episode title here...</h3>
     <input id="EpisodeInput" type="text">
-    <button id="Ricktify">
+    <button onclick="RickItUp()" id="Ricktify">
         <p id="Button-Text">Ricktify Text</p>
     </button>
+    <h3 id="Ricktified"></h3>
 </div>
 
 

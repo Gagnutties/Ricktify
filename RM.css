@@ -26,6 +26,9 @@ button {
 nav {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#Ricktified {
+    display: none;
+}
 #Button-Text {
     color: #00c4d6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
